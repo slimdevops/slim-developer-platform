@@ -8,7 +8,7 @@ Team Slim typically releases new features and functionality to our web portal, C
 
 #### **Enhanced Vulnerability Scanning and SBOMs for Slim Hardened Images**
 
-We’ve made it much easier to verify vulnerability reduction as a result of Slim's automated container hardening process. You can now run Trivy, Grype, Snyk, Prisma Cloud (Twistlock) or any 3rd-party scanner on your hardened images produced via Slim platform. You can also generate SBOMs using 3rd-party tools for these images with complete and accurate Package information. 
+We’ve made it much easier to verify vulnerability reduction as a result of Slim's automated container hardening process. You can now run Trivy, Grype, Snyk, Prisma Cloud (Twistlock), or any 3rd-party scanner on your hardened images produced via Slim platform. You can also generate SBOMs using 3rd-party tools for these images with complete and accurate Package information. 
 
 #### **Automatically generate CycloneDX SBOMs**
 
