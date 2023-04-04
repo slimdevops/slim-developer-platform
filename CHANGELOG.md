@@ -4,6 +4,25 @@ Team Slim typically releases new features and functionality to our web portal, C
 
 ## Recent Releases
 
+### April 3, 2023: Slim Portal
+
+#### **Improved onboarding**
+We’ve updated our homepage to improve the onboarding experience. Now, you can connect your registry, scan images using Trivy and Grype, and begin the hardening process directly from our homepage launch pad. 
+
+#### **Grype Scan Results** 
+We’ve updated our method for pulling CVEs from the Grype database to ensure that we provide users with the most accurate CVE dataset (previously we pulled the largest CVE dataset from Grype). This will align Grype results on the Slim Platform with stand alone Grype results. 
+
+#### **Downloadable Hardening Artifacts** 
+With this release, you can now view, download, and select the hardening artifacts collected during the instrumentation phase of hardening. 
+
+### March 31, 2023: Slim CLI: Version 0.0.13 
+* ARM support for hardening images; use the --platform flag to set the correct platform for the instrumented and hardened images. 
+* Generate vulnerability scans directly from the CLI using new vscan commands. 
+* Hardening ease-of-use commands including the ability to:
+  * List all hardening attempts for an image
+  * List all runs for a given hardening attempt
+  * Download hardening artifacts for given hardening attempt
+
 ### March 24, 2023: Slim Portal
 
 #### **Enhanced Vulnerability Scanning and SBOMs for Slim Hardened Images**
