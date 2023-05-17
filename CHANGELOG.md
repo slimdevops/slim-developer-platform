@@ -12,7 +12,10 @@ Our new, scalable navigation makes it easy to find what you need throughout the 
 #### **Collections deprication**
 We have deprecated our current Collections feature as part of a larger effort to more effectively surface the images you care about. Stay tuned for more updates. 
 
-### April 3, 2023: Slim Portal
+### April 6, 2023: Slim Portal
+
+#### **Hardening by Layer**
+We’ve added the ability to select ‘n’ and above layers to skip the hardening process when hardening an image. This will allow you to try out various levels of hardening to see which version of the hardened image works best in your production environment. This selection can be done in the CLI using the CLI flag --include-last-image-layers. 
 
 #### **Improved onboarding**
 We’ve updated our homepage to improve the onboarding experience. Now, you can connect your registry, scan images using Trivy and Grype, and begin the hardening process directly from our homepage launch pad. 
@@ -26,10 +29,7 @@ With this release, you can now view, download, and select the hardening artifact
 ### March 31, 2023: Slim CLI: Version 0.0.13 
 * ARM support for hardening images; use the --platform flag to set the correct platform for the instrumented and hardened images. 
 * Generate vulnerability scans directly from the CLI using new vscan commands. 
-* Hardening ease-of-use commands including the ability to:
-  * List all hardening attempts for an image
-  * List all runs for a given hardening attempt
-  * Download hardening artifacts for given hardening attempt
+* Hardening ease-of-use commands including the ability to list all hardening attempts for an image, list all runs for a hardening attempt, and download hardening artifacts. 
 
 ### March 24, 2023: Slim Portal
 
