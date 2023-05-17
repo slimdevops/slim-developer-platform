@@ -4,6 +4,14 @@ Team Slim typically releases new features and functionality to our web portal, C
 
 ## Recent Releases
 
+### May 12, 2023: Slim Portal
+
+#### **Updated navigation**
+Our new, scalable navigation makes it easy to find what you need throughout the Slim Platform. 
+
+#### **Collections deprication**
+We have deprecated our current Collections feature as part of a larger effort to more effectively surface the images you care about. Stay tuned for more updates. 
+
 ### April 6, 2023: Slim Portal
 
 #### **Hardening by Layer**
