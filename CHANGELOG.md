@@ -4,6 +4,20 @@ Team Slim typically releases new features and functionality to our web portal, C
 
 ## Recent Releases
 
+### May 25, 2023: Slim Portal
+
+#### **Image profile overview**
+The new image profile overview page highlights key security information about your image. This page provides a summary of vulnerabilities, the packages impacted by high and critical vulnerabilities, and all of the other key information about the image. Deep dive into the image details and vulnerabilities using the left navigation tabs. 
+
+#### **Harden page**
+The new Harden section of the Slim Portal makes it easy to jump back into the hardening process where you left off. The Hardening in Progress tab displays all images that are in the process of being hardened. Once you mark a hardened image as complete, indicating that the hardened image can now replace the original image, we list that image in the Hardened tab.
+
+#### **My registries updates**
+The My registries tab now includes the Connected Registry table so that once you have added a connector, you can easily access all of your images from one place. 
+
+#### **Improved performance**
+We have made some performance enhancements to our front end to decrease page load time, so that you can access our content quickly. 
+
 ### May 12, 2023: Slim Portal
 
 #### **Updated navigation**
